@@ -12,7 +12,7 @@
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   
@@ -61,7 +61,7 @@
     position: absolute;
     bottom: 0;
     margin-left: 10px;
-    padding: 6px 8px;
+    padding: 4px 8px;
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
@@ -71,7 +71,7 @@
   }
   
   .cards__item__img {
-    position: absolute;
+    position:absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -95,7 +95,7 @@
   
   .cards__item__text {
     color: #252e48;
-    font-size: 18px;
+    font-size: 30px;
     line-height: 24px;
   }
   

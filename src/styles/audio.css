@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  margin: 0 10px;
+}
+
+.audio-player {
+ background: 50%;
+  background-image: url("/src/data/wall.jpg");
+  /* background-size: 100%; /* Adjust the percentage as needed */
+  /* background-repeat: no-repeat;
+  background-position: center center;
+  background-color: black; */ 
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* audio info */
+.audio-info {
+  display: flex;
+  gap: 20px;
+}
+
+.text {
+  color: #f50;
+}
+
+.title {
+  color:rgba(255, 0, 43, 0.836);
+  font-weight: 100;
+  font-size: 50px;
+  margin-top:30px;
+  margin-left:15px;
+  margin-bottom: 0;
+  padding: 2px;
+  line-height: 37px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+  /* background-color: rgba(0,0,0,.8); */
+}
+
+.author{
+  color: rgb(7, 214, 217);
+  font-weight: 100;
+  font-size: 20px;
+  margin-top:10px;
+  margin-left:20px;
+  margin-bottom: 0;
+  padding: 2px;
+  line-height: 37px;
+  font-family:'Times New Roman', Times, serif
+}
+
+/* audio image */
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+ 
+}
+
+.audio-image {
+  width: 300px;
+  height: 300px;
+  background: #1e1e1e; 
+}
+
+.audio-icon {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: #989898;
+}
+
+.audio-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border: #f2f2f2;
+}
+
+/* controls */
+.controls-wrapper {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.controls{
+  margin-top:15px;
+  margin-left:50px;
+ 
+}
+
+.controls button, .volume button {
+  border: none;
+  background-color: transparent;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+button svg {
+  font-size: 35px;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+  margin-right:100px ;
+}
+
+.volume button {
+  margin: 5px;
+ 
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 40px;
+  gap: 10px;
+  width: 100%;
+  height:50px;
+}
+
+/* time */
+.time {
+  color: white;
+  font-size: 13px;
+  line-height: 46px;
+}
+
+.time.current {
+  color: #f50;
+}
+
+

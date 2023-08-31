@@ -1,7 +1,6 @@
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   height: 80px;
-  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +29,7 @@
   align-items: center;
 }
 
-.fa-headphones {
+.fa-typo3 {
   margin-left: 0.5rem;
   font-size: 1.8rem;
 }
@@ -82,7 +81,6 @@
   }
 
   .nav-menu {
-    
     display: flex;
     flex-direction: column;
     width: 100%;
