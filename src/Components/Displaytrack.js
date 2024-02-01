@@ -3,7 +3,7 @@ import { BsMusicNoteBeamed } from 'react-icons/bs';
 const DisplayTrack = ({
   currentTrack,
   audioRef,
-  setDuration,
+  setDuration, 
   progressBarRef,
   handleNext,
 }) => {
